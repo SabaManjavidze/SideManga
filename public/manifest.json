@@ -1,15 +1,19 @@
 {
-	"manifest_version": 2,
-	"name": "Better Vocab",
-	"author": "Darwin",
-	"version": "1.0.1",
-	"description": "Replace new tab screen with English word",
-	"icons": {
-		"16": "darwinFav16.ico",
-		"48": "darwinFav48.ico",
-		"128": "darwinFav128.ico"
-	},
-	"chrome_url_overrides": {
-		"newtab": "index.html"
-	}
+  "manifest_version": 2,
+  "name": "SideManga",
+  "author": "The Gods Himself",
+  "version": "1.0.1",
+  "description": "Brought to you by The God's Service",
+  "icons": {
+    "512": "/images/icone.png"
+  },
+  "sidebar_action": {
+    "default_icon": {
+      "512": "/images/icone.png"
+    },
+    "icons": {
+      "512": "/images/icone.png"
+    },
+    "default_panel": "index.html"
+  }
 }

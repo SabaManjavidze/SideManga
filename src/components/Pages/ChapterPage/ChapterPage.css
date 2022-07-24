@@ -1,0 +1,27 @@
+.chap-cont {
+  background-color: #121212;
+  padding-top: 30px;
+}
+.pages {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 70%;
+}
+.chap-header {
+  background: #2f2f2f;
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  line-height: 15px;
+}
+.chap-header h3 {
+  font-weight: 400;
+}
+.pages-cont {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}

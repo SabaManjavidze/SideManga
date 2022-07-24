@@ -1,0 +1,28 @@
+.search-res-cont {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 0px !important;
+  border: 1px solid black;
+  width: 400px;
+  text-align: center;
+  transition: 0.6s;
+  cursor: pointer;
+  text-align: center;
+}
+.search-res-cont:hover {
+  background: #454545;
+  transition: 0.5s;
+}
+.res-img {
+  width: 60px;
+}
+.title-container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+.res-title {
+  font-size: 15px;
+}

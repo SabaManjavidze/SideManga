@@ -1,0 +1,17 @@
+.parent {
+  background-color: #333;
+}
+a {
+  text-decoration: none;
+}
+.cont-parent {
+  display: flex;
+  justify-content: center;
+}
+.cont {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  padding-top: 20px;
+  width: 80%;
+}

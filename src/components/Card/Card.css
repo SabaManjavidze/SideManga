@@ -1,0 +1,19 @@
+.card {
+  border-radius: 10px;
+  color: white;
+  background: #242728;
+  border: 1px solid rgba(0, 255, 255, 0.363);
+}
+.card-image {
+  border-radius: 10px;
+}
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.chapter-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

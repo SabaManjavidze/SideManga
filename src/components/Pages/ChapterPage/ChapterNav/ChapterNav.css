@@ -1,0 +1,22 @@
+.chapter-nav-cont {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
+.nav-btn {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  border-radius: 20px;
+  background: none;
+  border: 2px solid rgb(60, 94, 149);
+  font-size: 20px;
+  transition: 0.7s;
+  max-height: 57px;
+  position: relative;
+  cursor: pointer;
+}
+.nav-btn:hover {
+  background: rgba(60, 94, 149, 0.466);
+  transition: 0.5s;
+}
